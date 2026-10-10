@@ -1,0 +1,26 @@
+{
+  "product": "PreHack OS",
+  "release_label": "bv8",
+  "iso_name": "PreHackOSbv8.iso",
+  "iso_size_bytes": 3570057216,
+  "iso_sha256": "dbd04756ddd02e9cf76b6779d3681be5ad34cfdec4f358ab460a40c260b689f8",
+  "part_format": "raw byte segments; concatenate in listed order",
+  "parts": [
+    {
+      "name": "PreHackOSbv8.iso.part01",
+      "size_bytes": 1800000000,
+      "sha256": "bc6d392f7aa397dd2fc4ab1c36645d44c9e8f5f94fbc8c25f488c0c674a43005"
+    },
+    {
+      "name": "PreHackOSbv8.iso.part02",
+      "size_bytes": 1770057216,
+      "sha256": "7894528d6909a900358821b0275ecf391d1b2adfc0d08c9767169baac4020824"
+    }
+  ],
+  "source_revision": null,
+  "validation": {
+    "part_readback_sha256": "passed",
+    "concatenated_sha256": "passed",
+    "boot_test_in_this_session": "not performed"
+  }
+}

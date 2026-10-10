@@ -1,0 +1,4 @@
+*.iso
+*.part01
+*.part02
+__pycache__/
